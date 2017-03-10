@@ -1,0 +1,23 @@
+{
+  "name": "react-native-radio-form",
+  "version": "1.0.0",
+  "description": "react native radioform is a simple Radio’s form, it’s a pure JS's component and it could used for the Android and iOS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cuiyueshuai/react-native-radio-form.git"
+  },
+  "keywords": [
+    "radio",
+    "form"
+  ],
+  "author": "cuiyueshuai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cuiyueshuai/react-native-radio-form/issues"
+  },
+  "homepage": "https://github.com/cuiyueshuai/react-native-radio-form#readme"
+}
