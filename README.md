@@ -1,7 +1,8 @@
 #react-native-radio-form
-=================================================
+
 react-native-radio-form is a simple Radio’s form, it’s a pure JS's component and it could used for the Android and iOS
 
+![](https://github.com/cuiyueshuai/react-native-radio-form/raw/master/radio-form.png)
 
 ##Installation
 ```bash
@@ -57,20 +58,21 @@ export default class PRNRadioForm extends Component {
   }
 }
 ```
+
 ##Properties
 | Prop  | Default  | Type | Description |
 | :------------ |:---------------:| :---------------:| :-----|
-| style | - | `object` | Specify the style of the radio-form, eg. width, height...  |
+| style | - | `object` | Specify the style of the radio-form, eg. width..., but don't suggest setting height |
 | dataSource | - | `array` | Specify the display date of radio-form. `array` type value must match the specified format and it's required |
-|itemShowKey | 'label' | `string` | The item's property what should display in the pages of `date`, `datetime` and `time` |
-| itemRealKey | 'value' | `string` | Specify the display format of the date, which using [moment.js](http://momentjs.com/). The default value change according to the mode. |
-| circleSize | 20 | `number` | Specify the text of confirm btn in ios. |
-| initial | 0 | `number | string` | Specify the text of cancel btn in ios. |
-| onPress | - | `function` | Specify the icon. Same as the `source` of Image, always using `require()` |
-| formHorizontal | false | `boolean` |  |
-| labelHorizontal | true | `boolean` | Restricts the range of possible date values. |
-| outerColor | '#2f86d5' | `string` | Restricts the range of possible date values. |
-| innerColor | '#2f86d5' | `string` | Restricts the range of possible date values. |
+|itemShowKey | 'label' | `string` | Specify the display property that radio-form's item from dataSource |
+| itemRealKey | 'value' | `string` | Specify the real-selected property that radio-form's item from dataSource |
+| circleSize | 20 | `number` | Specify the size of radio-form's circle |
+| initial | 0 | `number | string` | Specify the initial value, it's array's index or what is itemShowKey's value and itemRealKey's |
+| onPress | - | `function` | This is called when the user click the Radio's item in the UI, The first and only argument is return object from dataSource when it's called |
+| formHorizontal | false | `boolean` | Specify the form whether can horizontal arrangement |
+| labelHorizontal | true | `boolean` | Specify between circle and label whether can horizontal arrangement |
+| outerColor | '#2f86d5' | `string` |  Specify the color the radio-form's outer-circle |
+| innerColor | '#2f86d5' | `string` |  Specify the color the radio-form's center point |
 
 
 ##Licence

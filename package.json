@@ -1,6 +1,6 @@
 {
   "name": "react-native-radio-form",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "react native radioform is a simple Radio’s form, it’s a pure JS's component and it could used for the Android and iOS",
   "main": "index.js",
   "scripts": {

@@ -1,5 +1,7 @@
 /**
- * Created by cui on 12/16/16.
+ * react-native-radio-form
+ * radio component for react native, it works on iOS and Android
+ * https://github.com/cuiyueshuai/react-native-radio-form.git
  */
 
 import React, { Component, PropTypes } from 'react';
