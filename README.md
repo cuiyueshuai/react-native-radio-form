@@ -1,17 +1,22 @@
-#react-native-radio-form
-
+react-native-radio-form
+================================================
+  
 react-native-radio-form is a simple Radio’s form, it’s a pure JS's component and it could used for the Android and iOS
 
 ![](https://github.com/cuiyueshuai/react-native-radio-form/raw/master/radio-form.png)
 
-##Installation
+Installation
+----------------------------------------------
+
 ```bash
 npm install react-native-radio-form --save
 ```
 **Note**: The radio-form is based on ECMAScript6, if you use React Native < `v0.13`, maybe it don't run
 
 
-##Usage
+Usage
+--------------------------------------------
+
 ```javascript
 import React, { Component } from 'react';
 import { StyleSheet, View } from 'react-native';
@@ -59,7 +64,9 @@ export default class PRNRadioForm extends Component {
 }
 ```
 
-##Properties
+Properties
+-------------------------------------------
+
 | Prop  | Default  | Type | Description |
 | :------------ |:---------------:| :---------------:| :-----|
 | style | - | `object` | Specify the style of the radio-form, eg. width..., but don't suggest setting height |
@@ -75,7 +82,9 @@ export default class PRNRadioForm extends Component {
 | innerColor | '#2f86d5' | `string` |  Specify the color the radio-form's center point |
 
 
-##Licence
+Licence
+-------------------------------------------
+
 (MIT)
 
 
