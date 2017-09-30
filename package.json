@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/cuiyueshuai/react-native-radio-form/issues"
   },
-  "homepage": "https://github.com/cuiyueshuai/react-native-radio-form#readme"
+  "homepage": "https://github.com/cuiyueshuai/react-native-radio-form#readme",
+  "dependencies": {
+    "prop-types": "^15.6.0"
+  }
 }
