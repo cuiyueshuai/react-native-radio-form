@@ -86,7 +86,7 @@ class RadioForm extends Component {
       >
         <View
           style={{ padding: labelPadding, flexDirection: labelHorizontal ? 'row' : 'column',
-          justifyContent: 'center', alignItems: 'center' }}
+          justifyContent: 'center', alignItems: 'center', flex: 1 }}
         >
           {this.renderRadioCircle(isSelected)}
           <View
