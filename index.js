@@ -48,7 +48,8 @@ class RadioForm extends Component {
     itemRealKey: 'value',
     circleSize: 20,
     outerColor: '#2f86d5',
-    innerColor: '#2f86d5'
+    innerColor: '#2f86d5',
+    labelPadding: 2.5
   };
 
   componentDidMount() {
@@ -72,7 +73,7 @@ class RadioForm extends Component {
   }
 
   renderRadioItem(item, i) {
-    const { itemShowKey } = this.props;
+    const { itemShowKey, labelHorizontal, labelStyle, labelPadding} = this.props;
     let isSelected = false;
     if (this.state.is_active_index === i) {
       isSelected = true;
@@ -84,14 +85,14 @@ class RadioForm extends Component {
         onPress={() => this._onPress(item, i)}
       >
         <View
-          style={{ padding: 2.5, flexDirection: this.props.labelHorizontal ? 'row' : 'column',
-          justifyContent: 'center', alignItems: 'center' }}
+          style={{ padding: labelPadding, flexDirection: labelHorizontal ? 'row' : 'column',
+          justifyContent: 'center', alignItems: 'center', flex: 1 }}
         >
           {this.renderRadioCircle(isSelected)}
           <View
             style={{ marginLeft: 3 }}
           >
-            <Text>{'' + item[itemShowKey]}</Text>
+            <Text style={labelStyle}> {'' + item[itemShowKey]}</Text>
           </View>
         </View>
       </TouchableWithoutFeedback>
